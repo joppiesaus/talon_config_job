@@ -1,3 +1,5 @@
+The following license is applicable to all files, except the files in the `footswitch` directory, which is under the MIT license present in said directory.
+
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
