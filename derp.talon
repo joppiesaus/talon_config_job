@@ -13,3 +13,15 @@ key(keypad_minus):
 
 club:
 	key(k)
+
+save:
+	key(ctrl-s)
+
+copy:
+	key(ctrl-c)
+
+paste:	
+	key(ctrl-v)
+
+select all:
+	key(ctrl-a)
