@@ -10,3 +10,6 @@ key(keypad_multiply):
 key(keypad_minus):
     tracking.control_toggle()
     speech.toggle()
+
+club:
+	key(k)
