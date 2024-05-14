@@ -25,3 +25,21 @@ paste:
 
 select all:
 	key(ctrl-a)
+
+test:
+	key(ctrl-r)
+	key(ctrl-a)
+	
+bool:
+	insert("bool")
+
+# todo: auto detect if there is text on the current line,
+# if so, only insert first enter when that is the case.
+block:
+	key(end)
+	key(enter)
+	insert("{")
+	key(enter)
+	insert("}")
+	key(up)
+	key(enter)
