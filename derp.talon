@@ -19,12 +19,25 @@ save:
 
 copy:
 	key(ctrl-c)
+	
+cut:
+	key(ctrl-x)
 
 paste:	
 	key(ctrl-v)
 
 select all:
 	key(ctrl-a)
+	
+find:
+	key(ctrl-f)
+
+to do:
+	insert("TODO: ")
+
+# TODO: make these only work in visual studio or something
+rabbit:
+	key(ctrl-h)
 
 test:
 	key(ctrl-r)
