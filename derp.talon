@@ -34,6 +34,10 @@ find:
 
 to do:
 	insert("TODO: ")
+	
+# short for semicolon
+semi:
+	insert(";")
 
 # TODO: make these only work in visual studio or something
 rabbit:
@@ -45,6 +49,10 @@ test:
 	
 bool:
 	insert("bool")
+
+var:
+far:
+	insert("var ")
 
 # todo: auto detect if there is text on the current line,
 # if so, only insert first enter when that is the case.
