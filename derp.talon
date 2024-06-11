@@ -34,6 +34,18 @@ find:
 
 to do:
 	insert("TODO: ")
+
+khi:
+key:
+ki:
+	insert("key")
+	
+fix:
+	key(backspace)
+	
+comment:
+	key(ctrl-k)
+	key(ctrl-/)
 	
 # short for semicolon
 semi:
@@ -42,6 +54,9 @@ semi:
 # TODO: make these only work in visual studio or something
 rabbit:
 	key(ctrl-h)
+	
+run:
+	key(f5)
 
 test:
 	key(ctrl-r)
